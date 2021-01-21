@@ -38,7 +38,7 @@ The steps in the operation of a decentralized cryptocurrency are:
    
 6. The nodes express their acceptance of the block by adopting its hash value in their new blocks.
 
-7. 
+A smart bond is a special type of automated bond contract that leverages the capabilities of blockchain databases that can function as cryptographically secure, yet open and transparent ledgers. It belongs to a class of financial instruments known as a smart contract, "a computerized transaction log that executes the terms of a contract" 
 
 
 3. Step : How DAI works
@@ -48,3 +48,12 @@ Stablecoins are cryptocurrencies, the price of which is controlled through activ
 Dai: The DAI Coin is a crypto currency that represents the equivalent of exactly 1 US dollar. Other crypto currencies such as Bitcoin, Ether & Co. have their own value that increases or decreases in value compared to a normal currency such as US dollars or euros.
 
 Technologically speaking, DAI runs on the Ethereum blockchain. This coin therefore also represents a decentralized cryptocurrency.
+
+There are several useful reasons to use DAI instead of the US dollar:
+1. The almost 2 billion people in the world without access to the banking system can participate in business life with the help of this cryptocurrency. In addition, this currency serves as an inflation protection for citizens of a country with high inflation. To do this, they simply invest the local currency in DAI
+2. You can use DAI for smart contracts and thus carry out automated transactions.
+3. You can send the DAI Coin very quickly and cheaply around the world. In contrast to conventional international transfers, you save a lot of time and money.
+4. Since the cryptocurrency runs decentrally on the blockchain, you don't need to trust a bank or other central authority. The coin is distributed decentrally in the network.
+
+
+

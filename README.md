@@ -50,10 +50,21 @@ Dai: The DAI Coin is a crypto currency that represents the equivalent of exactly
 Technologically speaking, DAI runs on the Ethereum blockchain. This coin therefore also represents a decentralized cryptocurrency.
 
 There are several useful reasons to use DAI instead of the US dollar:
-1. The almost 2 billion people in the world without access to the banking system can participate in business life with the help of this cryptocurrency. In addition, this currency serves as an inflation protection for citizens of a country with high inflation. To do this, they simply invest the local currency in DAI
-2. You can use DAI for smart contracts and thus carry out automated transactions.
-3. You can send the DAI Coin very quickly and cheaply around the world. In contrast to conventional international transfers, you save a lot of time and money.
-4. Since the cryptocurrency runs decentrally on the blockchain, you don't need to trust a bank or other central authority. The coin is distributed decentrally in the network.
+       1. The almost 2 billion people in the world without access to the banking system can participate in business life with the help of this cryptocurrency. In addition, this         currency serves as an inflation protection for citizens of a country with high inflation. To do this, they simply invest the local currency in DAI
+       2. You can use DAI for smart contracts and thus carry out automated transactions.
+       3. You can send the DAI Coin very quickly and cheaply around the world. In contrast to conventional international transfers, you save a lot of time and money.
+       4. Since the cryptocurrency runs decentrally on the blockchain, you don't need to trust a bank or other central authority. The coin is distributed decentrally in the network.
 
+4. Step Understanding zkdai
 
+With ZkDai you can shield the sender, recipient and the amount of the transaction.
 
+ZkDai implementation
+Zero-knowledge protocols are used, among other things. of authentication. With some crypto currencies such as Zcash or mobile payment services such as Bluecode, they increase the anonymity of payment transactions
+
+ZkDai has the concept of a secret note. A note is identified by a tuple, which is a combination of two elements - the note owner's public key (pk) and the note's value in Dai (v).
+
+Output a ZkDai note
+The ZkDai notes are output like UTXOs (Unspent Transaction Output). In order to transfer a certain value to a recipient, one selects some secret notes, the net value of which is at least equal to the value with which one would like to carry out the transactions. This value is sent to the recipient in the form of a new ZkDai note.
+
+Note that this transaction hides the transaction diagram. The sender is hidden in the sense that one could use a new eth address each time to perform a transaction that the zkp sends in the chain. Maan just needs to prove knowledge of "sk" which is the secret key corresponding to the public key that the note belongs to, i.e. H. A null proof of knowledge proves possession of a note, not the transactional sender. The recipient is always hidden because this information is encoded in the hash note.

@@ -38,6 +38,7 @@ The steps in the operation of a decentralized cryptocurrency are:
    
 6. The nodes express their acceptance of the block by adopting its hash value in their new blocks.
 
+7. 
 
 
 3. Step : How DAI works

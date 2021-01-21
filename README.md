@@ -19,3 +19,14 @@ Transaction: Each node in the peer-to-peer network acts as a register and truste
 
 If a participant now wants to transfer an amount to an account, he creates a transfer order with the amount and the public key of the target account and signs this order with his secret key. This order is published via the P2P network. It now has to be checked and certified and archived as a transaction in the joint accounting.
 
+The steps in the operation of a decentralized cryptocurrency are:
+1. New transactions are signed and sent to all nodes.
+2. Each node collects new transactions in a block.
+3. Each node looks for the nonce that validates its block.
+4. When a node finds a valid block, it sends the block to all other nodes.
+5. The nodes only accept the block if it is valid according to the rules:
+    a. The hash value of the block must correspond to the current level of difficulty.
+    b. All transactions must be correctly signed.
+c. The transactions must be covered in accordance with the previous blocks (no double spending).
+d. New issue and transaction fees must conform to the accepted rules.
+6. The nodes express their acceptance of the block by adopting its hash value in their new blocks.

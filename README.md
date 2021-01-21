@@ -38,3 +38,10 @@ The steps in the operation of a decentralized cryptocurrency are:
    
 6. The nodes express their acceptance of the block by adopting its hash value in their new blocks.
 
+3. Step : How DAI works
+
+Stablecoins are cryptocurrencies, the price of which is controlled through active or automatic monetary policy with the aim of low volatility in relation to a national currency, a currency basket or other assets
+
+Dai: The DAI Coin is a crypto currency that represents the equivalent of exactly 1 US dollar. Other crypto currencies such as Bitcoin, Ether & Co. have their own value that increases or decreases in value compared to a normal currency such as US dollars or euros.
+
+Technologically speaking, DAI runs on the Ethereum blockchain. This coin therefore also represents a decentralized cryptocurrency.

@@ -13,7 +13,7 @@ With the command geth we generate Genesis-Block.json
 
 An account was also created and mining was started manually.Then a simple Solidity script for an Ethereum Smart Contract was created, compiled and deployed.
 
-2. Understanding crypto currency
+2. Step: Understanding crypto currency
 
 Nonce: In cryptography, the term nonce was taken up to designate a combination of numbers or letters that is only used once in the respective context. Typical ways of generating a nonce are the use of (cryptographically secure) random values that are sufficiently large so that the probability of double use is negligible (see birthday paradox),
 

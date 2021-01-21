@@ -8,5 +8,7 @@ To enter the world of crypto-currencies, we have designed our own Smart Contract
 The next task we set up our own blockchain was created on a virtual machine under the operating system ubuntu 20.4. A private test Ethereum blockchain was set up and started.
 the following programs were installed geth (Go Ethereum) and solc(Solidity Compiler). To start your own private test Ethereum blockchain, manual initialization of the first Genesis block is required.
 With the command geth we generate Genesis-Block.json
+
  geth --datadir "Flens-arena" init src/genesis-block.json
- An account was also created and mining was started manually.Then a simple Solidity script for an Ethereum Smart Contract was created, compiled and deployed.
+
+An account was also created and mining was started manually.Then a simple Solidity script for an Ethereum Smart Contract was created, compiled and deployed.

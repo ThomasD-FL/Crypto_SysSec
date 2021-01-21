@@ -12,3 +12,10 @@ With the command geth we generate Genesis-Block.json
  geth --datadir "Flens-arena" init src/genesis-block.json
 
 An account was also created and mining was started manually.Then a simple Solidity script for an Ethereum Smart Contract was created, compiled and deployed.
+
+2. Understanding crypto currency
+
+Transaction: Each node in the peer-to-peer network acts as a register and trustee who carries out changes of ownership and automatically maps verifiable rules about these transactions. All transactions are always audited by all other nodes.
+
+If a participant now wants to transfer an amount to an account, he creates a transfer order with the amount and the public key of the target account and signs this order with his secret key. This order is published via the P2P network. It now has to be checked and certified and archived as a transaction in the joint accounting.
+
